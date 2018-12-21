@@ -39,7 +39,7 @@ header {
 	border-bottom: 2px solid #cccccc;
 }
 
-#myName {
+#myName, button {
 	background-color: #4aaaa5;
 	/*color: white;*/
 	padding: 25px;
