@@ -1,0 +1,151 @@
+/* GENERAL */
+
+body {
+	font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+	margin: 0 auto;
+	background-image: url("../images/ep_naturalwhite.png");
+}
+
+.headingFonts {
+	font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+nav a{
+	/*border-right: 1px solid #ccc;*/
+}
+
+a {
+	text-decoration: none;
+	color: #777777;
+}
+
+nav a:last-child {
+	/*border-right: 0 none;*/
+}
+
+.container-fluid, .main-content {
+	/*background-color: white;*/
+}
+
+/* HEADER */
+
+.container{
+	max-width: 960px;
+	height: 100px;
+	/*border: 2px solid red;*/
+}
+
+header {
+	border-bottom: 2px solid #cccccc;
+}
+
+#myName {
+	background-color: #4aaaa5;
+	/*color: white;*/
+	padding: 25px;
+}
+
+#navMenu {
+	vertical-align: middle;
+	border: 2px solid red;
+}
+
+/* MAIN CONTENT */
+
+.main-content {
+	/*min-height: calc(100vh - 70px);*/
+	min-height: 0px;
+	border: 1px #dddddd solid;
+	max-width: 960px;
+	height: auto;
+	/*margin: 20px auto;*/
+	overflow: auto;
+}
+
+.hname {
+	color: #4aaaa5;	
+	width: 100%;
+}
+
+.iwrap {
+	height: 260px;
+	width: 250px;
+}
+
+#p1:first-letter {
+	float: left;
+    font-size: .1px;
+    padding: 50px 60px 25px 40px;
+    margin-right: 9px;
+    background: url(../images/letI.png);
+}
+
+p {
+	line-height: 25px;
+}
+
+.imgsize {
+	height: 200px;
+	width: 300px;
+}
+
+.projectTitle {
+	background-color: #4aaaa5;
+	color: white;
+	font-size: 20px;
+	/*text-align: center;*/
+	/*width: 100%;*/
+	padding: 0.025px 0;
+	/*position: relative;*/
+	bottom: 75px;
+	line-height: 60px;
+}
+
+textarea {
+	width: 99%;
+	height: 100px;
+	resize: none;
+	margin-top: 10px; 
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 10px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-size: 15px;
+}
+
+h4 {
+	margin: 0 auto;
+}
+
+input[type=button]{
+    width: 15%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #ffffff;
+    background-color: #4aaaa5;
+    font-size: 15px;
+}
+
+h5, h4 {
+	font-weight: lighter;
+}
+
+
+/* FOOTER */
+
+footer {
+	border-top: 8px solid #4aaaa5;
+	background-color: #666666;
+	color: white;
+	vertical-align: middle;
+}
